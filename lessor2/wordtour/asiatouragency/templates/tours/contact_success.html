@@ -1,0 +1,18 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Success page</title>
+    <link rel="stylesheet" href="{% static 'styles/styles.css' %}">
+</head>
+<body>
+    <div class="success_message">
+    <h1>Success</h1>
+    <p>contact message has been successfully sent.Thank you</p>
+    <a href="{% url 'home' %}">Back to Home page</a>
+</div>
+</body>
+</html>
