@@ -28,7 +28,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install django
     - name: "Deploy to aws"
-      run:  restart authProject/authApp/python3 manage.py runserver
+      run:  authProject/authApp/python3 manage.py runserver
 
     # Set up SSH for EC2 connection
     # - name: Set up SSH key for EC2
